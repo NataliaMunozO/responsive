@@ -1,0 +1,52 @@
+body{
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    background-color: black;
+}
+a{
+   text-decoration: none;
+   color: black;
+}
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: steelblue;
+    justify-content: space-between;
+    align-items: center;
+   padding-right: 10px;
+}
+.logo{
+    display: flex;
+    
+    
+}
+.logo img{
+    height: 70px;
+    margin-right: 20px;
+
+}
+
+nav a{
+font-weight: 600;
+padding-right: 10px;
+
+}
+nav a:hover{
+    color: azure;
+}
+
+@media(max-widht:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+h1{
+    color:aliceblue;
+}
+p{
+    color: aliceblue;
+}

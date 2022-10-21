@@ -1,0 +1,4 @@
+# Este es el listado de archivis que vamos a ignorar.
+requisitos.txt
+./pages     
+# donde dice pages así se ignora una carpeta
